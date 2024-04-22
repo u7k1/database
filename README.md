@@ -3,10 +3,10 @@ the [Database.java](https://github.com/u7k1/database/blob/main/Database.java) is
 ## Usage
 ### • Connecting to your Database.
 ```java
-        String url = "jdbc:mysql://localhost:3306/mydatabase";
-        String username = "root";
-        String password = "password";
+String url = "jdbc:mysql://localhost:3306/mydatabase";
+String username = "root";
+String password = "password";
 
-        Database db = new Database();
-        db.connect(url, username, password);
+Database db = new Database();
+db.connect(url, username, password);
 ```
