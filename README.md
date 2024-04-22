@@ -18,3 +18,17 @@ values.put("age", 30);
 db.insert("users", values);
 
 ```
+### • Create Table.
+```java
+db.createTable("users", "id INT PRIMARY KEY, name VARCHAR(255), age INT");
+```
+### • Update Data.
+```java
+db.update("users", "age = 31", "name = 'Alice'");
+```
+### • Query Data.
+```java
+db.query("users", "*", null);
+//or
+db.query("users", "*", "name = 'Alice'");
+```
