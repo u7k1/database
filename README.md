@@ -10,3 +10,11 @@ String password = "password";
 Database db = new Database();
 db.connect(url, username, password);
 ```
+### • Inserting Data.
+```java
+Map<String, Object> values = new HashMap<>();
+values.put("name", "Alice");
+values.put("age", 30);
+db.insert("users", values);
+
+```
