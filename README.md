@@ -1,5 +1,5 @@
 # About
-the [Database.java](https://github.com/u7k1/database/blob/main/Database.java) is a SQL class that give you simple actions with your database.
+the [Database.java](https://github.com/u7k1/database/blob/main/Database.java) is a SQL class allows you to do simple actions with in database.
 ## Usage
 ### • Connect to your Database.
 ```java
