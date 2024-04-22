@@ -1,5 +1,3 @@
-package me.u7k1.backfromcs;
-
 import java.sql.*;
 import java.util.Map;
 import java.util.stream.Collectors;
